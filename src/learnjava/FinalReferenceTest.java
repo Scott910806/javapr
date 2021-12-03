@@ -23,7 +23,7 @@ class Person{
 public class FinalReferenceTest {
     public static void main(String[] args) {
         // final修饰的引用类型变量
-        final PersonPro p = new PersonPro(45);
+        final Person p = new Person(45);
         p.setAge(26);
         System.out.println(p.getAge());
         // 以下赋值语句会报错
