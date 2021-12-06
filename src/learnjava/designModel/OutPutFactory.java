@@ -7,7 +7,8 @@ import src.learnjava.OutPut;
 
 public class OutPutFactory {
     public OutPut getOutFactory(){
-        return new Printer();
+        // return new Printer();
+        return new BetterPrinter();
     }
     public static void main(String[] args) {
         OutPutFactory of = new OutPutFactory();
