@@ -1,8 +1,8 @@
 package src.learnjava.designModel;
 import src.learnjava.OutPut;
 /**
- * 面向接口编程
- * 示例中Computer类，组合了一个OutPut类型的接口的对象，从而将Computer类与Printer类完全分离
+ * 面向接口编程：简单工厂模式
+ * 示例中Computer类，组合了一个OutPut类型的接口的对象
  */
 public class Computer {
     private OutPut out;
