@@ -27,7 +27,8 @@ public class EnumTest {
             System.out.println(s);
         }
         new EnumTest().judge(SeasonEnum.WINTER);
-        // 
+        // 使用枚举值
         System.out.println(Gender.MALE.getName());
+        Gender.MALE.info();
     }
 }
