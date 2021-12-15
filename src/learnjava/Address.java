@@ -1,4 +1,4 @@
-package src.learnjava;
+package learnjava;
 /**
  * 不可变类(inmutable class)：类创建对象后，该对象的变量不可改变；
  * 此示例中，成员变量为不可变数据类型

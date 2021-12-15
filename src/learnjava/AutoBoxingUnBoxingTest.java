@@ -1,4 +1,4 @@
-package src.learnjava;
+package learnjava;
 
 public class AutoBoxingUnBoxingTest {
     public static void main(String[] args) {

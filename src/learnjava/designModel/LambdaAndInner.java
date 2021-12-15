@@ -1,4 +1,4 @@
-package src.learnjava.designModel;
+package learnjava.designModel;
 
 @FunctionalInterface
 interface Display{

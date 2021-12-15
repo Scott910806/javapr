@@ -1,4 +1,4 @@
-package src.learnjava.designModel;
+package learnjava.designModel;
 import javax.swing.JFrame;
 
 /**

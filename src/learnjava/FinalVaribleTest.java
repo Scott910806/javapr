@@ -1,4 +1,4 @@
-package src.learnjava;
+package learnjava;
 
 public class FinalVaribleTest {
     // final实例变量在声明语句中赋值

@@ -1,4 +1,4 @@
-package src.learnjava;
+package learnjava;
 
 /**
  * 理解类成员

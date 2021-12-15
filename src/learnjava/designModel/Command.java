@@ -1,4 +1,4 @@
-package src.learnjava.designModel;
+package learnjava.designModel;
 
 /**
  * 面向接口编程：命令模式

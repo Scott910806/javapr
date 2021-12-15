@@ -1,4 +1,4 @@
-package src.learnjava;
+package learnjava;
 
 class Vehicle{
     public String vehicleName;

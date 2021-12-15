@@ -1,4 +1,4 @@
-package src.learnjava.designModel;
+package learnjava.designModel;
 
 // 枚举类
 public enum SeasonEnum {
