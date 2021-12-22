@@ -1,5 +1,6 @@
 package learnjava.baseclass;
 
+// 运行参数
 public class ArgsTest {
     public static void main(String[] args) {
         System.out.println(args.length);
