@@ -1,4 +1,4 @@
-package learnjava.designmodel;
+package learnjava.designmodul;
 /**
  * 内部类：非静态内部类、静态内部类
  * 内部类的上一层级是某个外部类，所以可以使用private、static、protected修饰

@@ -1,4 +1,4 @@
-package learnjava.designmodel;
+package learnjava.designmodul;
 
 import java.util.Arrays;
 

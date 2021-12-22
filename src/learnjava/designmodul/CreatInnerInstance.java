@@ -1,4 +1,4 @@
-package learnjava.designmodel;
+package learnjava.designmodul;
 
 /**
  * 在外部类之外使用内部类，需要注意内部类的访问权限

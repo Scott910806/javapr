@@ -1,4 +1,4 @@
-package learnjava.designmodel;
+package learnjava.designmodul;
 /**
  * 内部类
  * 示例：外部类、内部类、内部类方法中有重名变量
