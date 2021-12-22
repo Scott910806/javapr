@@ -1,4 +1,4 @@
-package learnjava.designModel;
+package learnjava.designmodel;
 /**
  * 面向接口编程：命令模式
  * 示例中，将Command接口类型的对象，作为ProcessArray类中的process方法的入参

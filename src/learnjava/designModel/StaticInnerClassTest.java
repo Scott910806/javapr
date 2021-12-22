@@ -1,4 +1,4 @@
-package learnjava.designModel;
+package learnjava.designmodel;
 /**
  * 内部类:静态内部类
  */

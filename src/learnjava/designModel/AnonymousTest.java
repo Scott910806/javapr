@@ -1,4 +1,4 @@
-package learnjava.designModel;
+package learnjava.designmodel;
 
 /**
  * 匿名内部类

@@ -1,4 +1,4 @@
-package learnjava.designModel;
+package learnjava.designmodel;
 import learnjava.OutPut;
 /**
  * 面向接口编程：简单工厂模式

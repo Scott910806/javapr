@@ -1,5 +1,5 @@
 
-package learnjava.designModel;
+package learnjava.designmodel;
 
 /**
  * 包含抽象方法的枚举类

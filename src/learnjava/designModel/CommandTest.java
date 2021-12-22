@@ -1,4 +1,4 @@
-package learnjava.designModel;
+package learnjava.designmodel;
 
 // 实现数组元素输出
 class PrintCommand implements Command{
