@@ -1,5 +1,5 @@
-package learnjava.designModel;
 
+package learnjava.designModel;
 public interface GenderDesc {
     void info();
 }
