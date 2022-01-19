@@ -42,6 +42,15 @@ public class NewDataPackageTest {
         System.out.println(instant5);
 
         // ------ 关于LocalDateTime 的用法 -----
+        var localDate = LocalDate.now();
+        System.out.println(localDate);
+        localDate = LocalDate.of(2022, 01, 29);
+        System.out.println(localDate);
+        System.out.println(localDate.getDayOfWeek());
+        localDate = localDate.plusMonths(1).plusDays(1);
+        System.out.println(localDate);
+
+        // ------ 关于LocalDateTime 的用法 -----
         var localDateTime = LocalDateTime.now();
         System.out.println(localDateTime); 
         //  plusHours()方法返回的仍然是LocalDateTime对象，所以可以继续调用实例方法plusMinutes
