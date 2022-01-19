@@ -1,4 +1,4 @@
-package learnjava;
+package src.learnjava;
 
 interface Product{
     int getProduceTime();

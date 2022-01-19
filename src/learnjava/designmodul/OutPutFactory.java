@@ -1,6 +1,6 @@
-package learnjava.designmodul;
-import learnjava.Printer;
-import learnjava.OutPut;
+package src.learnjava.designmodul;
+import src.learnjava.Printer;
+import src.learnjava.OutPut;
 /**
  * 面向接口编程:简单工厂模式
  */

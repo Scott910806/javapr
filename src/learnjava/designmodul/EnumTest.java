@@ -1,4 +1,4 @@
-package learnjava.designmodul;
+package src.learnjava.designmodul;
 
 public class EnumTest {
     public void judge(SeasonEnum s){

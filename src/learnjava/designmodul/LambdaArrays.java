@@ -1,4 +1,4 @@
-package learnjava.designmodul;
+package src.learnjava.designmodul;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package learnjava.designmodul;
+package src.learnjava.baseclass;
 
 /**
  * 匿名内部类

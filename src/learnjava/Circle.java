@@ -1,4 +1,4 @@
-package learnjava;
+package src.learnjava;
 /**
  * 抽象类：只能被继承，不创建对象，abstract关键字修饰
  */

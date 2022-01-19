@@ -1,4 +1,4 @@
-package learnjava.baseclass;
+package src.learnjava.baseclass;
 
 import java.util.Scanner;
 

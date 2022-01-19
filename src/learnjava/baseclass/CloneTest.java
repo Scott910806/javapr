@@ -1,4 +1,4 @@
-package learnjava.baseclass;
+package src.learnjava.baseclass;
 
 class Address{
     String detial;

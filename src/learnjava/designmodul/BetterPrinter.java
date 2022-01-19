@@ -1,6 +1,6 @@
-package learnjava.designmodul;
+package src.learnjava.designmodul;
 
-import learnjava.OutPut;
+import src.learnjava.OutPut;
 
 // 优化Printer类
 public class BetterPrinter implements OutPut{

@@ -1,5 +1,5 @@
-package learnjava.designmodul;
-import learnjava.OutPut;
+package src.learnjava.designmodul;
+import src.learnjava.OutPut;
 /**
  * 面向接口编程：简单工厂模式
  * 示例中Computer类，组合了一个OutPut类型的接口的对象

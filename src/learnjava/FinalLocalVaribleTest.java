@@ -1,4 +1,4 @@
-package learnjava;
+package src.learnjava;
 
 public class FinalLocalVaribleTest {
     public void test(final int age){

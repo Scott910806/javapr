@@ -1,4 +1,4 @@
-package learnjava.baseclass;
+package src.learnjava.baseclass;
 
 public class RuntimeTest {
     public static void main(String[] args) {

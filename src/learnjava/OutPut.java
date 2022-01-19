@@ -1,4 +1,4 @@
-package learnjava;
+package src.learnjava;
 /**
  * 接口
  */

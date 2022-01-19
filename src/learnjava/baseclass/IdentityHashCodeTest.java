@@ -1,4 +1,4 @@
-package learnjava.baseclass;
+package src.learnjava.baseclass;
 
 public class IdentityHashCodeTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package learnjava;
+package src.learnjava;
 /**
  * 单例类：只能创建一个对象的类
  * 1、使用private关键字隐藏类的构造器

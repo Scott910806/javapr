@@ -1,4 +1,4 @@
-package learnjava;
+package src.learnjava;
 /**
  * final修饰的引用类型的变量，该变量不能被重新赋值，但被引用的实际对象可以改变
  */

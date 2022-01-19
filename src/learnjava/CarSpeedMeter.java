@@ -1,4 +1,4 @@
-package learnjava;
+package src.learnjava;
 
 /**
  * 抽象类的作用示例
