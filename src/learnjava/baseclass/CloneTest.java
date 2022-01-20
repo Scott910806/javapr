@@ -6,7 +6,7 @@ class Address{
         this.detial = detial;
     }
 }
-
+// 实现Cloneable接口
 class User implements Cloneable{
     int age;
     Address address;
@@ -14,7 +14,9 @@ class User implements Cloneable{
         this.age = age;
         address = new Address("上海浦东");
     }
+    // 通过调用super.clone()方法来实现clone方法
     public User clone() throws CloneNotSupportedException{
+        // 将clone对象强制转换成User类型
         return (User)super.clone();
     }
 }
