@@ -1,4 +1,4 @@
-package src.learnjava.baseclass;
+package src.frequentlyusedclass;
 
 public class StringTest {
     public static void main(String[] args) {

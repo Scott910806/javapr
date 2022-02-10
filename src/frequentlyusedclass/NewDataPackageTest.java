@@ -1,4 +1,4 @@
-package src.learnjava.baseclass;
+package src.frequentlyusedclass;
 
 import java.time.Clock;
 import java.time.Duration;
