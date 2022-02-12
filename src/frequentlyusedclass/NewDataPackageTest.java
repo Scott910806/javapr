@@ -9,14 +9,22 @@ import java.time.Month;
 import java.time.MonthDay;
 import java.time.Year;
 import java.time.YearMonth;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
 
 
 public class NewDataPackageTest {
     public static void main(String[] args) {
         // ------ 关于Clock 的用法 -----
         var clock = Clock.systemUTC();
-        // 获取当前时间
+        var clock001 = Clock.system(ZoneId.of("Asia/Tokyo"));
+        var clock002 = Clock.systemDefaultZone();
+        // 获取指定时区、当前时间
+        System.out.println("clock001: " + ZonedDateTime.now(clock001));
+        System.out.println("clock002: " + ZonedDateTime.now(clock002));
+        System.out.println("nowTime: " + ZonedDateTime.now());
         System.out.println(clock.instant());
+        System.out.println(Instant.now(clock));
         // 获取当前时间的毫秒数
         System.out.println(clock.millis());
         System.out.println(System.currentTimeMillis());
@@ -25,7 +33,7 @@ public class NewDataPackageTest {
         var d = Duration.ofSeconds(6000);
         System.out.println(d.toMinutes());
 
-        // 
+        // ------ 关于Duration 的用法 -----
         var clock2 = Clock.offset(clock, d);
         System.out.println(clock2.instant());
         
@@ -33,7 +41,7 @@ public class NewDataPackageTest {
         var instant = Instant.now();
         System.out.println(instant);
         var instant2 = instant.plusMillis(6000);
-        System.out.println(instant2);
+        System.out.println("instant2" + instant2);
         var instant3 = Instant.parse("2022-01-20T10:12:35.333Z");
         System.out.println(instant3);
         var instant4 = instant3.plus(Duration.ofHours(4).plusHours(30));
@@ -74,5 +82,10 @@ public class NewDataPackageTest {
         System.out.println(md);
         md = md.with(Month.OCTOBER).withDayOfMonth(22);
         System.out.println(md);
+
+        // ------ 关于ZoneId -----
+
+        // ------ 关于ZonedDateTime -----
+
     }
 }
