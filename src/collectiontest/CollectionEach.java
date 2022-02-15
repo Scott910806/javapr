@@ -1,5 +1,6 @@
 package src.collectiontest;
 
+import java.util.Collection;
 import java.util.HashSet;
 
 /**
@@ -8,7 +9,7 @@ import java.util.HashSet;
  */
 public class CollectionEach {
     public static void main(String[] args) {
-        var books = new HashSet();
+        Collection<String> books = new HashSet<>();
         books.add("牧童骑黄牛");
         books.add("歌声振林樾");
         books.add("意欲捕鸣蝉");
