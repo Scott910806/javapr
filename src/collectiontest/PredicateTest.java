@@ -19,7 +19,7 @@ public class PredicateTest {
         System.out.println(calAll(books, ele -> ele.length() > 10));
     }
     // calAll 用于统计满足条件的对象数量，泛型方法
-    public static<T> int calAll(Collection<T> books, Predicate<T> p){
+    public static<T> int calAll(Collection<T> books, Predicate<? super T> p){
         int total = 0;
         for (T book : books){
             if (p.test(book)){
