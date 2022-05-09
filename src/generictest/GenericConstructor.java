@@ -1,7 +1,7 @@
 package src.generictest;
 
-class Foo{
-    public <T> Foo(T t){
+class Foo1{
+    public <T> Foo1(T t){
         System.out.println(t);
     }
 }
@@ -15,11 +15,11 @@ class MyClass<E>{
 public class GenericConstructor {
     public static void main(String[] args) {
         // 根据入参推断T为String类型
-        new Foo("hello");
+        new Foo1("hello");
         // 根据入参推断T为Integer类型
-        new Foo(2345);
+        new Foo1(2345);
         // 显示指定T为String类型
-        new <String> Foo("hello");
+        new <String> Foo1("hello");
         // 以下代码将编译报错
         // new <String> Foo(3.14);
 
